@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <a href="index.html">Home</a>
+    </nav>
     <main>
-        <form>
-            <progress id="file" max="100" value="0"></progress>
+
+        <form class="formulario">
+            <progress id="file" max="100" value="0" style="align-self: center;"></progress>
             <label>email :</label>
             <input type="email">
             <label>telefone :</label>
@@ -36,6 +41,7 @@
                 <li>Terror<input type="range" min="0" max="10" step="1"></li>
                 <li>Ficção cientifica<input type="range" min="0" max="10" step="1"></li>
             </ul>
+            <input type="submit">
         </form>
     </main>    
 </body>
