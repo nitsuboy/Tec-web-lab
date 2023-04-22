@@ -6,20 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>Document</title>
+    <style>
+        .formulario {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            justify-items: center;
+            background-color: darkgray;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+        .formulario ul{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        label {
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        input[type=color]{
+            padding: 0px 0px;
+            width: 20%;
+            align-self: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border: 1px solid;
+            border-radius: 10px;
+        }
+        
+    </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+        </ul>
     </nav>
     <main>
 
         <form class="formulario">
             <progress id="file" max="100" value="0" style="align-self: center;"></progress>
-            <label>email :</label>
+            <label>email</label>
             <input type="email">
-            <label>telefone :</label>
+            <label>telefone</label>
             <input type="tel">
-            <label>data de nascimeto :</label>
+            <label>data de nascimeto</label>
             <input type="date">
             <label>mês de adesão</label>
             <input type="date">

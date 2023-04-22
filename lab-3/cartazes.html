@@ -8,26 +8,30 @@
     <title>Document</title>
     <style>
         body {
-            background-color: blue;
+            background-color: #FF9A8B;
+            background-image: linear-gradient(90deg, #FF9A8B 0%, #FF6A88 55%, #FF99AC 100%);
+        }
+        .cartazes {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 10px 10px;
         }
     </style>
 </head>
 <body>
     <nav>
-        <a href="index.html">Home</a>
-    </nav>
-    <main>
         <ul>
             <li>
-                <a href="cartaz_john.html"><figure><img src="res/john.jpg" width="250"></figure></a>
-            </li>
-            <li>
-                <a href="cartaz_todo.html"><figure><img src="res/todomundo.jpg" width="250"></figure></a>
-            </li>
-            <li>
-                <a href="cartaz_heroi.html"><figure><img src="res/superheroi.jpg" width="250"></figure></a>
+                <a href="index.html">Home</a>
             </li>
         </ul>
+    </nav>
+    <main>
+        <div class="cartazes">
+            <a href="cartaz_todo.html"><figure><img src="res/todomundo.jpg" width="250"></figure></a>
+            <a href="cartaz_heroi.html"><figure><img src="res/superheroi.jpg" width="250"></figure></a>
+            <a href="cartaz_john.html"><figure><img src="res/john.jpg" width="250"></figure></a>
+        </div>
     </main>
 </body>
 </html>

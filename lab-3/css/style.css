@@ -4,43 +4,70 @@
 }
 
 body {
-    background: #9fa56d;
-}
-
-input[type=button], input[type=submit], input[type=reset] {
-    background-color: #04AA6D;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-decoration: none;
-    margin: 4px 2px;
-    cursor: pointer;
+    background-color: aliceblue;
 }
 
 main {
-    height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.formulario {
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    justify-items: center;
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul{
     list-style: none;
 }
 
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
 .cartaz {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 600px;
     align-items: center;
+    font-family:'Roboto', Arial, Verdana, sans-serif;
+}
+
+#banner img{
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    object-fit: cover;
+}
+
+#poster {
+    gap: 40px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+}
+
+#poster figure{
+    float: top;
 }
 
 .cartaz table{
