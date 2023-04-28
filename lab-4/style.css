@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/* questão 1 */
+
+.colorchange {
+    width: 200px;
+    height: 200px;
+}
+
+@media only screen and (min-width: 320px) {
+    .colorchange {
+        background-color: black;
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .colorchange {
+        background-color: lightblue;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .colorchange {
+        background-color: lightgreen;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .colorchange {
+        background-color: lightyellow;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .colorchange {
+        background-color: brown;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .colorchange {
+        background-color: darkblue;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .colorchange {
+        background-color: darkgreen;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .colorchange {
+        background-color: darkred;
+    }
+}
+
+/* questão 2 */
+
+.ocult {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+}
+
+@media (orientation: portrait) {
+    .ocult {
+        display: none;
+    }
+}
+
+@media (orientation: landscape) {
+    .ocult {
+        display: block;
+    }
+}
+
+/* questão 3 */
+
+.wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-1 {
+    flex: 1 0 0;
+    background-color: green;
+}
+
+.item-2 {
+    display: none;
+    flex: 1 0 0;
+    background-color: blue;
+}
+
+.item-3 {
+    display: none;
+    flex: 1 0 0;
+    background-color: violet;
+}
+
+.item-4 {
+    display: none;
+    flex: 1 0 0;
+    background-color: green;
+}
+
+.item-5 {
+    display: none;
+    flex: 1 0 0;
+    background-color: blue;
+}
+
+@media only screen and (min-width: 1025px) {
+    .item-2 {
+        display: block;
+        flex: 1 0 0;
+        background-color: blue;
+    }
+    
+    .item-3 {
+        display: block;
+        flex: 1 0 0;
+        background-color: violet;
+    }
+}
+
+@media only screen and (min-width: 1201px) {
+    .item-4 {
+        display: block;
+        flex: 1 0 0;
+        background-color: green;
+    }
+    
+    .item-5 {
+        display: block;
+        flex: 1 0 0;
+        background-color: blue;
+    }
+}
+
+/* questão 4 */
