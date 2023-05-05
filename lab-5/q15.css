@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.box-1 {
+    order: 2;
+}
+
+.box-2 {
+    background-color: red;
+    order: 3;
+}
+
+.box-3 {
+    order: 1;
+}
+
+.box-4 {
+    order: 4;
+}
+
+div > div {
+    border: 1px solid;
+    background-color: #4a86e8;
+    height: 150PX;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-5 {
+    display: none;
+}
