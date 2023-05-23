@@ -1,544 +1,490 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link rel="stylesheet" href="css/boots.css">
+        <title>Document</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
-    
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-    <main>
-        <div class="hoho cabeca scdb">
-            <div class="cabeca left">
-                <img src="assets/logo-full.png" class="logo">
-                <img src="assets/logo-mini.png" class="logo m">
-            </div>
-            <div class="cabeca right">
-                <div class="cabeca lang">
-                    <div>EN</div>
-                    <div>ER</div>
-                    <div>DE</div>
-                    <div>CN</div>
-                </div>
-            </div>
-        </div>
-        <div class="scdb">
-            <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-around align-items-center">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item active">
-                      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                  </ul>
-                  <div class="ml-auto">
-                    <form class="form-inline  my-lg-0">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                  </form>
-                  </div>
-                </div>
-            </nav>
-            <div>
-                <img class="d-block w-100" src="assets/banner.jpg">
-            </div>
-        </div>
-        <div class="hehe l">
-            <div id="tete" class="scdb">
-                <div id="carouseluni" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouseluni" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouseluni" data-slide-to="1"></li>
-                        <li data-target="#carouseluni" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner ">
-                        <div class="carousel-item active">
-                            <img class="carousel-img" src="assets/slide/celulares.png" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>OnePlus 9 Pro: O novo carro-chefe da OnePlus</h5>
-                                <p>A OnePlus lançou o OnePlus 9 Pro, seu mais recente smartphone topo de linha. O
-                                    dispositivo possui uma câmera Hasselblad ...</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img class="carousel-img" src="assets/slide/6g.png" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>Google lança Pixel 6 com chip desenvolvido internamente</h5>
-                                <p>O Google revelou o Pixel 6, seu mais recente smartphone. O destaque do dispositivo é o
-                                    novo chip desenvolvido internamente chamado ...</p>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <img class="carousel-img" src="assets/slide/perifericos.png" alt="First slide">
-                            <div class="carousel-caption d-none d-md-block">
-                                <h5>JBL lança os fones de ouvido sem fio JBL Free 2</h5>
-                                <p>A JBL apresentou os JBL Free 2, seus mais recentes fones de ouvido sem fio. Os fones
-                                    contam com conectividade Bluetooth ...</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouseluni" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouseluni" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    </a>
-                </div>
-            </div>
-            <div class="hihi vs">
-                <div class="video scdb">
-                    <div>
-                        <span>Ultimo video</span>
-                    </div>
-                    <iframe id="player" type="text/html"
-                        src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
-                        frameborder="0"></iframe>
-                </div>
-                <div class="socials scdb">
-                    <span>siga-nos !!</span>
-                    <a href="#">
-                        <div>
-                            <i class="fa fa-instagram" id="icons" aria-hidden="true"></i>
-                            <span>@AllPhones</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div>
-                            <i class="fa fa-whatsapp" id="icons" aria-hidden="true"></i>
-                            <span>(88)994888118</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div>
-                            <i class="fa fa-facebook-official" id="icons" aria-hidden="true"></i>
-                            <span>AllPhonesOFC</span>
-                        </div>
-                    </a>
-                    <a href="#">
-                        <div>
-                            <i class="fa fa-telegram" id="icons" aria-hidden="true"></i>
-                            <span>AllPhones</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-        <div class="hehe">
-            <div class="hehe tri">
-                <article class="modelo_item">
-                    <h2><a href="#">Motorola Moto G stylus 2023</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>6.4</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/motorola mot g stylus 2023.webp" alt="Lava Blaze 1X">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>13</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>50 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>1.9 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>720x1600</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <span class="line"></span>
-                <article class="modelo_item">
-                    <h2><a href="#">Coolpad Cool 30</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>6.4</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/Coolpad Cool 30.webp">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>11</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>48 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>1.9 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>720x1600</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-            <div class="hehe tri">
-                <article class="modelo_item">
-                    <h2><a href="#">Honor X50i</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>7.6</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/Honor X50i.webp">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>13</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>100 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>2.1 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>1080x23888</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <span class="line"></span>
-                <article class="modelo_item">
-                    <h2><a href="#">Motorola Edge 40</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>8.0</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/Motorola Edge 40.webp">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>13</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>50 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>2.3 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>1080x2400</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-            <div class="hehe tri">
-                <article class="modelo_item">
-                    <h2><a href="#">Motorola Moto G 2023</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>7.3</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/Motorola Moto G 2023.webp">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>13</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>48 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>1.9 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>720x1600</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-                <span class="line"></span>
-                <article class="modelo_item">
-                    <h2><a href="#">vivo Y78 Plus</a></h2>
-                    <div class="details">
-                        <div class="score">
-                            <strong>8.1</strong>
-                            <span class="score_label">Hardware</span>
-                        </div>
-                        <a href="#">
-                            <img src="assets/notas/vivo Y78 Plus.webp">
-                        </a>
-                        <ul class="features">
-                            <li class="so_android">
-                                Android <strong>13</strong>
-                            </li>
-                            <li class="camera">
-                                Foto <strong>50 Mpx</strong>
-                            </li>
-                            <li class="cpu">
-                                8 Core <strong>1.8 Ghz</strong>
-                            </li>
-                            <li class="display">
-                                Display <strong>1080x2400</strong>
-                            </li>
-                        </ul>
-                    </div>
-                </article>
-            </div>
-        </div>
-        <div class="hoho formulario">
-            <form action="">
-                <h2 class="title">MANTENHA-SE INFORMADO</h2>
-
-                <label for="name">Nome</label>
-                <div class="inputForm">
-                    <i class="fa fa-user" aria-hidden="true"></i>
-                    <input class="input" type="text" id="name" name="name" placeholder="Nome">
-                </div>
-
-                <label for="email">Email</label>
-                <div class="inputForm">
-                    <i class="fa fa-envelope" aria-hidden="true"></i>
-                    <input class="input" type="text" name="email" placeholder="Email">
-                </div>
-
-                <label for="telephone">Telefone</label>
-                <div class="inputForm">
-                    <i class="fa fa-phone-square" aria-hidden="true"></i>
-                    <input class="input" type="tel" name="tel" placeholder="Telefone">
-                </div>
-
-                <div class="btn">
-                    <button type="submit">Cadastrar</button>
-                </div>
-            </form>
-        </div>
-        <div class="hoho">
-            <p class="titulo">Top 10 celulares atualmente</p>
-            <div class="trend">
-                <div class="card">
-                    <img class="card-img-top" src="assets/trend/trend1.png" alt="Card image cap">
-                    <span>Galaxy S22 Ultra</span>
-                </div>
-                <div class="card">
-                    <p>02</p>
-                    <img src="assets/trend/trend2.png" alt="">
-                    <span>iPhone 12 Pro Max</span>
-                </div>
-                <div class="card">
-                    <p>03</p>
-                    <div>
-                        <img src="assets/trend/trend3.png" alt="">
-                    </div>
-                    <span>iPhone 13 mini</span>
-                </div>
-                <div class="card">
-                    <p>04</p>
-                    <img src="assets/trend/trend4.png" alt="">
-                    <span>Zenfone 8</span>
-                </div>
-                <div class="card">
-                    <p>05</p>
-                    <img src="assets/trend/trend5.png" alt="">
-                    <span>Edge 30 Ultra</span>
-                </div>
-                <div class="card">
-                    <p>06</p>
-                    <img src="assets/trend/trend6.png" alt="">
-                    <span>Zenfone 9</span>
-                </div>
-                <div class="card">
-                    <p>07</p>
-                    <img src="assets/trend/trend7.png" alt="">
-                    <span>Galaxy S23</span>
-                </div>
-                <div class="card">
-                    <p>08</p>
-                    <img src="assets/trend/trend8.png" alt="">
-                    <span>Galaxy S23 Plus</span>
-                </div>
-                <div class="card">
-                    <p>09</p>
-                    <img src="assets/trend/trend9.png" alt="">
-                    <span>Galaxy S23 Ultra</span>
-                </div>
-                <div class="card">
-                    <p>10</p>
-                    <img src="assets/trend/trend10.png" alt="">
-                    <span>Xiaomi 13</span>
-                </div>
-            </div>
-        </div>
-        <div class="hehe na">
-            <div class="notice">
-                <div class="txt_notice">Novidades</div>
-                <div class="content">
-                    <div class="img_content">
-                        <img src="assets/notices/notice1.webp" alt="">
-                    </div>
-                    <div class="description_content">
-                        <h3>Galaxy S24 Ultra deve receber atualização no software do sensor do S23 Ultra </h3>
-                        <div class="txt_add">
-                            <span>Economia e mercado</span>
-                            <p>2 horas atrás</p>
-                        </div>
-                    </div>
-                </div>
-                <span class="line"></span>
-                <div class="content">
-                    <div class="img_content">
-                        <img src="assets/notices/notice2.webp" alt="">
-                    </div>
-                    <div class="description_content">
-                        <h3>Google começa a apresentar anúncios em busca da Play Store, apontam usuários</h3>
-                        <div class="txt_add">
-                            <span>Google</span>
-                            <p>4 horas atrás</p>
-                        </div>
-                    </div>
-                </div>
-                <span class="line"></span>
-                <div class="content">
-                    <div class="img_content">
-                        <img src="assets/notices/notice3.webp" alt="">
-                    </div>
-                    <div class="description_content">
-                        <h3>Vale a pena? Xiaomi 13 Lite chega ao Brasil com preço alto e versão única</h3>
-                        <div class="txt_add">
-                            <span>Lançamentos</span>
-                            <p>6 horas atrás</p>
-                        </div>
-                    </div>
-                </div>
-                <span class="line"></span>
-                <div class="content">
-                    <div class="img_content">
-                        <img src="assets/notices/notice4.webp" alt="">
-                    </div>
-                    <div class="description_content">
-                        <h3>WhatsApp testa opção que permite denunciar mensagens para administradores de grupos </h3>
-                        <div class="txt_add">
-                            <span>Software</span>
-                            <p>12 horas atrás</p>
-                        </div>
-                    </div>
-                </div>
-                <span class="line"></span>
-                <div class="content">
-                    <div class="img_content">
-                        <img src="assets/notices/notice5.webp" alt="">
-                    </div>
-                    <div class="description_content">
-                        <h3>Windows 11: Microsoft quer implementar widgets na área de trabalho do sistema</h3>
-                        <div class="txt_add">
-                            <span>Rumores</span>
-                            <p>15 horas atrás</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="aboutUs">
-                <h1>ABOUT US</h1>
-                <p>
-                    O AllPhones é um site de notícias especializado em smartphones, que oferece aos seus leitores
-                    informações atualizadas sobre os mais recentes lançamentos, análises detalhadas, dicas e truques, e
-                    proteção contra ameaças cibernéticas. Com uma equipe de especialistas em tecnologia, o AllPhones é
-                    uma fonte confiável para entusiastas e usuários casuais de smartphones.
-                </p>
-            </div>
-        </div>
-        <div class="hehe">
-            <div class="ad">
+    <body>
+        <main class="d-flex p-2 flex-column gap">
+            <div class="d-flex p-3 scdb">
                 <div>
-                    <label>AD</label>
+                    <img class=" m-2 logo" height="100px" src="assets/logo-full.png" >
+                    <img class=" m-2 logo m" height="100px" src="assets/logo-mini.png" >
                 </div>
-            </div>
-            <div class="hihi">
-                <div class="peripheral">
-                    <img src="assets/perifericos/smartpower.png">
-                    <div class="descPeripheral">
-                        <h3>Smart Baterry Case</h3>
-                        <p>O iPhone 11 Pro e o Pro Max ganharam uma capinha bastante funcional. A Smart Baterry Case
-                            oferece 50% mais bateria para o aparelho..</p>
-                    </div>
-                    <div class="bestPrice">
-                        <p>Melhor preço</p>
-                        <strong>R$1120.00</strong>
-                    </div>
-                </div>
-                <div class="peripheral">
-                    <img src="assets/perifericos/castway.png">
-                    <div class="descPeripheral">
-                        <h3>CastAway</h3>
-                        <p>O dispositivo é uma capinha de tela adicional que pode transformar o celular em um notebook
-                            mini. Além disso, ele pode funcionar como..</p>
-                    </div>
-                    <div class="bestPrice">
-                        <p>Melhor preço</p>
-                        <strong>R$1000.00</strong>
-                    </div>
-                </div>
-                <div class="peripheral">
-                    <img src="assets/perifericos/fone.png">
-                    <div class="descPeripheral">
-                        <h3>CastAway</h3>
-                        <p>A Olloclip desenvolveu um acessório que oferece lentes adicionais para o iPhone 11. O
-                            conjunto inclui lentes teleobjetivas...</p>
-                    </div>
-                    <div class="bestPrice">
-                        <p>Melhor preço</p>
-                        <strong>R$48.00</strong>
+                <div class="ml-auto">
+                    <div class="lang">
+                        <div>EN</div>
+                        <div>ER</div>
+                        <div>DE</div>
+                        <div>CN</div>
                     </div>
                 </div>
             </div>
-            <div class="ad">
+            <div class="scdb">
                 <div>
-                    <label>AD</label>
+                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-around">
+                        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                              </li>
+                          </ul>
+                          <form class="form-inline  my-lg-0 ml-auto">
+                            <div>
+                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                            </div>
+                          </form>
+                        </div>
+                    </nav>
+                    <div>
+                        <img class="d-block w-100" src="assets/banner.jpg">
+                    </div>
+                </div>                
+            </div>
+            <div class="d-flex flex-md-row flex-column gap mh-60vh">
+                <div class="overflow-hidden scdb w-100">
+                    <div id="carouseluni" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouseluni" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouseluni" data-slide-to="1"></li>
+                            <li data-target="#carouseluni" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>OnePlus 9 Pro: O novo carro-chefe da OnePlus</h5>
+                                    <p>A OnePlus lançou o OnePlus 9 Pro, seu mais recente smartphone topo de linha. O
+                                        dispositivo possui uma câmera Hasselblad ...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>Google lança Pixel 6 com chip desenvolvido internamente</h5>
+                                    <p>O Google revelou o Pixel 6, seu mais recente smartphone. O destaque do dispositivo é o
+                                        novo chip desenvolvido internamente chamado ...</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5>JBL lança os fones de ouvido sem fio JBL Free 2</h5>
+                                    <p>A JBL apresentou os JBL Free 2, seus mais recentes fones de ouvido sem fio. Os fones
+                                        contam com conectividade Bluetooth ...</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouseluni" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouseluni" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="d-flex flex-row flex-md-column gap">
+                    <div class="d-flex flex-column justify-content-center align-items-center gap scdb">
+                        <div>
+                            <span>Ultimo video</span>
+                        </div>
+                        <iframe type="text/html"
+                            src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
+                            frameborder="0"></iframe>
+                    </div>
+                    <div class="d-flex flex-column flex-grow-1 justify-content-center align-items-center gap scdb">
+                        <span>siga-nos !!</span>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-instagram" id="icons" aria-hidden="true"></i>
+                                <span>@AllPhones</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-whatsapp" id="icons" aria-hidden="true"></i>
+                                <span>(88)994888118</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-facebook-official" id="icons" aria-hidden="true"></i>
+                                <span>AllPhonesOFC</span>
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div>
+                                <i class="fa fa-telegram" id="icons" aria-hidden="true"></i>
+                                <span>AllPhones</span>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <footer class="hoho footer">
-            <div class="feet">
-                <img src="assets/logo-full.png">
-                <span>&copy; 2023 - 2023 www.allphones.com.br</span>
+            <div class="d-flex flex-md-row flex-column gap mh-45vh">
+                <div class="scdb d-flex flex-grow-1 flex-column">
+                    <article class="modelo_item">
+                        <h2><a href="#">Motorola Moto G stylus 2023</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>6.4</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/motorola mot g stylus 2023.webp" alt="Lava Blaze 1X">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>13</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>50 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>1.9 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>720x1600</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <span class="line"></span>
+                    <article class="modelo_item">
+                        <h2><a href="#">Coolpad Cool 30</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>6.4</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/Coolpad Cool 30.webp">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>11</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>48 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>1.9 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>720x1600</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="scdb d-flex flex-grow-1 flex-column">
+                    <article class="modelo_item">
+                        <h2><a href="#">Honor X50i</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>7.6</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/Honor X50i.webp">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>13</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>100 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>2.1 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>1080x23888</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <span class="line"></span>
+                    <article class="modelo_item">
+                        <h2><a href="#">Motorola Edge 40</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>8.0</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/Motorola Edge 40.webp">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>13</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>50 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>2.3 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>1080x2400</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+                <div class="scdb d-flex flex-grow-1 flex-column">
+                    <article class="modelo_item">
+                        <h2><a href="#">Motorola Moto G 2023</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>7.3</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/Motorola Moto G 2023.webp">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>13</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>48 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>1.9 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>720x1600</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                    <span class="line"></span>
+                    <article class="modelo_item">
+                        <h2><a href="#">vivo Y78 Plus</a></h2>
+                        <div class="details">
+                            <div class="score">
+                                <strong>8.1</strong>
+                                <span class="score_label">Hardware</span>
+                            </div>
+                            <a href="#">
+                                <img src="assets/notas/vivo Y78 Plus.webp">
+                            </a>
+                            <ul class="features">
+                                <li class="so_android">
+                                    Android <strong>13</strong>
+                                </li>
+                                <li class="camera">
+                                    Foto <strong>50 Mpx</strong>
+                                </li>
+                                <li class="cpu">
+                                    8 Core <strong>1.8 Ghz</strong>
+                                </li>
+                                <li class="display">
+                                    Display <strong>1080x2400</strong>
+                                </li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
             </div>
-            <div class="foot">
-                <a href="#">Redação</a>
-                <a href="#">Fale conosco</a>
-                <a href="#">Anuncie</a>
-                <a href="#">Trabalhe conosco</a>
+            <div class="d-flex center p-3" style="
+            background-image: url(assets/form.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            opacity: 0.8;">
+                <form action="" class="d-flex flex-column">
+                    <h2 class="title text-white">MANTENHA-SE INFORMADO</h2>
+                    <div class="form-group row text-white">
+                        <label for="name" class="col-sm-2 col-form-label">Nome</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="name" name="name" placeholder="Nome">
+                        </div>
+                    </div>
+
+                    <div class="form-group row text-white">
+                        <label for="Email" class="col-sm-2 col-form-label">Email</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="Email" name="Email" placeholder="Email">
+                        </div>
+                    </div>
+
+                    <div class="form-group row text-white">
+                        <label for="Telefone" class="col-sm-2 col-form-label">Telefone</label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" id="Telefone" name="Telefone" placeholder="Telefone">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-dark">Cadastrar</button>
+                </form>
             </div>
-        </footer>
-    </main>
-    
+
+            <div class="d-flex flex-md-row flex-column gap">
+                <div class="notice scdb overflow-auto mh-45vh">
+                    <div class="txt_notice">Novidades</div>
+                    <div class="content">
+                        <div class="img_content">
+                            <img src="assets/notices/notice1.webp" alt="">
+                        </div>
+                        <div class="description_content">
+                            <h3>Galaxy S24 Ultra deve receber atualização no software do sensor do S23 Ultra </h3>
+                            <div class="txt_add">
+                                <span>Economia e mercado</span>
+                                <p>2 horas atrás</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="content">
+                        <div class="img_content">
+                            <img src="assets/notices/notice2.webp" alt="">
+                        </div>
+                        <div class="description_content">
+                            <h3>Google começa a apresentar anúncios em busca da Play Store, apontam usuários</h3>
+                            <div class="txt_add">
+                                <span>Google</span>
+                                <p>4 horas atrás</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="content">
+                        <div class="img_content">
+                            <img src="assets/notices/notice3.webp" alt="">
+                        </div>
+                        <div class="description_content">
+                            <h3>Vale a pena? Xiaomi 13 Lite chega ao Brasil com preço alto e versão única</h3>
+                            <div class="txt_add">
+                                <span>Lançamentos</span>
+                                <p>6 horas atrás</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="content">
+                        <div class="img_content">
+                            <img src="assets/notices/notice4.webp" alt="">
+                        </div>
+                        <div class="description_content">
+                            <h3>WhatsApp testa opção que permite denunciar mensagens para administradores de grupos </h3>
+                            <div class="txt_add">
+                                <span>Software</span>
+                                <p>12 horas atrás</p>
+                            </div>
+                        </div>
+                    </div>
+                    <span class="line"></span>
+                    <div class="content">
+                        <div class="img_content">
+                            <img src="assets/notices/notice5.webp" alt="">
+                        </div>
+                        <div class="description_content">
+                            <h3>Windows 11: Microsoft quer implementar widgets na área de trabalho do sistema</h3>
+                            <div class="txt_add">
+                                <span>Rumores</span>
+                                <p>15 horas atrás</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="aboutUs scdb">
+                    <h1>ABOUT US</h1>
+                    <p>
+                        O AllPhones é um site de notícias especializado em smartphones, que oferece aos seus leitores
+                        informações atualizadas sobre os mais recentes lançamentos, análises detalhadas, dicas e truques, e
+                        proteção contra ameaças cibernéticas. Com uma equipe de especialistas em tecnologia, o AllPhones é
+                        uma fonte confiável para entusiastas e usuários casuais de smartphones.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex flex-md-row flex-column gap mh-60vh">
+                <div class="ad scdb">
+                    <div>
+                        <label>AD</label>
+                    </div>
+                </div>
+                <div class="hihi">
+                    <div class="peripheral scdb">
+                        <img src="assets/perifericos/smartpower.png">
+                        <div class="descPeripheral">
+                            <h3>Smart Baterry Case</h3>
+                            <p>O iPhone 11 Pro e o Pro Max ganharam uma capinha bastante funcional. A Smart Baterry Case
+                                oferece 50% mais bateria para o aparelho..</p>
+                        </div>
+                        <div class="bestPrice">
+                            <p>Melhor preço</p>
+                            <strong>R$1120.00</strong>
+                        </div>
+                    </div>
+                    <div class="peripheral scdb">
+                        <img src="assets/perifericos/castway.png">
+                        <div class="descPeripheral">
+                            <h3>CastAway</h3>
+                            <p>O dispositivo é uma capinha de tela adicional que pode transformar o celular em um notebook
+                                mini. Além disso, ele pode funcionar como..</p>
+                        </div>
+                        <div class="bestPrice">
+                            <p>Melhor preço</p>
+                            <strong>R$1000.00</strong>
+                        </div>
+                    </div>
+                    <div class="peripheral scdb">
+                        <img src="assets/perifericos/fone.png">
+                        <div class="descPeripheral">
+                            <h3>CastAway</h3>
+                            <p>A Olloclip desenvolveu um acessório que oferece lentes adicionais para o iPhone 11. O
+                                conjunto inclui lentes teleobjetivas...</p>
+                        </div>
+                        <div class="bestPrice">
+                            <p>Melhor preço</p>
+                            <strong>R$48.00</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="ad scdb">
+                    <div>
+                        <label>AD</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <footer class="d-flex flex-column center bg-dark p-3">
+                <div class="d-flex flex-column center">
+                    <img src="assets/logo-full.png" width="200px">
+                    <span>&copy; 2023 - 2023 www.allphones.com.br</span>
+                </div>
+                <div class="">
+                    <a href="#" class="text-white">Redação</a>
+                    <a href="#" class="text-white">Fale conosco</a>
+                    <a href="#" class="text-white">Anuncie</a>
+                    <a href="#" class="text-white">Trabalhe conosco</a>
+                </div>
+            </footer>
+        </main>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
-</body>
-
+    </body>
 </html>
