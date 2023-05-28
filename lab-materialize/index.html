@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>Document</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
         <link rel="stylesheet" href="css/boots.css">
-        <title>Document</title>
         <meta charset="utf-8">
+
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"  media="screen,projection"/>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
     </head>
 
     <body>
-        <main class="d-flex p-2 flex-column gap">
-            <div class="d-flex p-3 scdb">
-                <div>
+        <main class="container">
+            <div class="row pad scdb">
+                <div class="col">
                     <img class=" m-2 logo" height="100px" src="assets/logo-full.png" >
                     <img class=" m-2 logo m" height="100px" src="assets/logo-mini.png" >
                 </div>
-                <div class="ml-auto">
+                <div class="col right">
                     <div class="lang">
                         <div>EN</div>
                         <div>ER</div>
@@ -27,97 +31,68 @@
                     </div>
                 </div>
             </div>
-            <div class="scdb">
+            <div class="row scdb">
                 <div>
-                    <nav class="navbar navbar-expand-sm navbar-dark bg-dark justify-content-around">
-                        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNav">
-                          <ul class="navbar-nav">
-                            <li class="nav-item active">
-                              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Features</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#">Pricing</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Pricing</a>
-                              </li>
+                    <nav>
+                        <div class="nav-wrapper grey darken-4">
+                          <ul class="left">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Pricing</a></li>
                           </ul>
-                          <form class="form-inline  my-lg-0 ml-auto">
-                            <div>
-                                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                            </div>
-                          </form>
                         </div>
-                    </nav>
+                        <div class="nav-wrapper">
+                            <form>
+                              <div class="input-field">
+                                <input id="search" type="search" required>
+                                <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                                <i class="material-icons">close</i>
+                              </div>
+                            </form>
+                          </div>
+                      </nav>
                     <div>
-                        <img class="d-block w-100" src="assets/banner.jpg">
+                        <img class="responsive-img" src="assets/banner.jpg">
                     </div>
                 </div>                
             </div>
-            <div class="d-flex flex-md-row flex-column gap mh-60vh">
-                <div class="overflow-hidden scdb w-100">
-                    <div id="carouseluni" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
-                            <li data-target="#carouseluni" data-slide-to="0" class="active"></li>
-                            <li data-target="#carouseluni" data-slide-to="1"></li>
-                            <li data-target="#carouseluni" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>OnePlus 9 Pro: O novo carro-chefe da OnePlus</h5>
-                                    <p>A OnePlus lançou o OnePlus 9 Pro, seu mais recente smartphone topo de linha. O
-                                        dispositivo possui uma câmera Hasselblad ...</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>Google lança Pixel 6 com chip desenvolvido internamente</h5>
-                                    <p>O Google revelou o Pixel 6, seu mais recente smartphone. O destaque do dispositivo é o
-                                        novo chip desenvolvido internamente chamado ...</p>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                <img src="assets/slide/6g.png" class="img-fluid" alt="First slide">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>JBL lança os fones de ouvido sem fio JBL Free 2</h5>
-                                    <p>A JBL apresentou os JBL Free 2, seus mais recentes fones de ouvido sem fio. Os fones
-                                        contam com conectividade Bluetooth ...</p>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouseluni" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouseluni" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        </a>
+            <div class="row">
+                <div class="col s12 m8 l8 scdb">
+
+                    <div class="carousel" id="demo-carousel">
+                     
+                        <a class="carousel-item" href="#one!"><img src="images/banana.jpg"></a>
+                     
+                        <a class="carousel-item" href="#two!"><img src="images/mango.jpg"></a>
+                     
+                        <a class="carousel-item" href="#three!"><img src="images/strawberries.jpg"></a>
+                     
+                        <a class="carousel-item" href="#four!"><img src="images/currant.jpg"></a>
+                     
+                        <a class="carousel-item" href="#five!"><img src="images/mango.jpg"></a>
+                                          
                     </div>
+
+
+
+
                 </div>
-                <div class="d-flex flex-row flex-md-column gap">
-                    <div class="d-flex flex-column justify-content-center align-items-center gap scdb">
+                <div class="col s12 m4 l4">
+                    <div class="scdb">
                         <div>
-                            <span>Ultimo video</span>
+                            <h6 class="center-align">Utimo video</h6>
                         </div>
-                        <iframe type="text/html"
-                            src="http://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&origin=http://example.com"
-                            frameborder="0"></iframe>
+                        <div class="video-container">
+                            <iframe width="853" height="480" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <div class="d-flex flex-column flex-grow-1 justify-content-center align-items-center gap scdb">
+                    <div class="scdb">
                         <span>siga-nos !!</span>
                         <a href="#">
                             <div>
                                 <i class="fa fa-instagram" id="icons" aria-hidden="true"></i>
-                                <span>@AllPhones</span>
+                                <span >@AllPhones</span>
                             </div>
                         </a>
                         <a href="#">
@@ -141,8 +116,8 @@
                     </div>
                 </div>
             </div>
-            <div class="d-flex flex-md-row flex-column gap mh-45vh">
-                <div class="scdb d-flex flex-grow-1 flex-column">
+            <div class="row">
+                <div class="scdb col m12 l4">
                     <article class="modelo_item">
                         <h2><a href="#">Motorola Moto G stylus 2023</a></h2>
                         <div class="details">
@@ -169,7 +144,7 @@
                             </ul>
                         </div>
                     </article>
-                    <span class="line"></span>
+                    <div class="divider"></div>
                     <article class="modelo_item">
                         <h2><a href="#">Coolpad Cool 30</a></h2>
                         <div class="details">
@@ -197,7 +172,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="scdb d-flex flex-grow-1 flex-column">
+                <div class="scdb col m12 l4">
                     <article class="modelo_item">
                         <h2><a href="#">Honor X50i</a></h2>
                         <div class="details">
@@ -224,7 +199,7 @@
                             </ul>
                         </div>
                     </article>
-                    <span class="line"></span>
+                    <div class="divider"></div>
                     <article class="modelo_item">
                         <h2><a href="#">Motorola Edge 40</a></h2>
                         <div class="details">
@@ -252,7 +227,7 @@
                         </div>
                     </article>
                 </div>
-                <div class="scdb d-flex flex-grow-1 flex-column">
+                <div class="scdb col m12 l4">
                     <article class="modelo_item">
                         <h2><a href="#">Motorola Moto G 2023</a></h2>
                         <div class="details">
@@ -279,7 +254,7 @@
                             </ul>
                         </div>
                     </article>
-                    <span class="line"></span>
+                    <div class="divider"></div>
                     <article class="modelo_item">
                         <h2><a href="#">vivo Y78 Plus</a></h2>
                         <div class="details">
@@ -309,8 +284,7 @@
                 </div>
             </div>
         </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+        
     </body>
 </html>
