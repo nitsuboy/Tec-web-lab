@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <main>
+        <button type="button" id="postb" class="button blue mobile" id="cadastrarCliente">POST</button>
+        <button type="button" id="getb" id="cadastrarCliente">GET</button>
+        <div>
+            <form action="" id="postform" style="display: none;">
+              <label for="pn">
+                <strong>Primeiro nome</strong>
+              </label>
+              <input type="text" name="pn" required>
+              <label for="un">
+                <strong>ultimo nome</strong>
+              </label>
+              <input type="text" name="un" required>
+              <label for="email">
+                <strong>E-mail</strong>
+              </label>
+              <input type="text" name="email" required>
+              <button type="submit" >Post</button>
+              <button type="button" id="closeb" >Close</button>
+            </form>
+          </div>
+          <div style="display: none;">
+            <form action="" id="putform">
+              <label for="pn">
+                <strong>Primeiro nome</strong>
+              </label>
+              <input type="text" name="pn" required>
+              <label for="un">
+                <strong>ultimo nome</strong>
+              </label>
+              <input type="text" name="un" required>
+              <label for="email">
+                <strong>E-mail</strong>
+              </label>
+              <input type="text" name="email" required>
+              <button type="submit" >Update</button>
+            </form>
+          </div>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Avatar</th>
+                    <th>Ação</th>
+                </tr>
+            </thead>
+            <tbody id="table">
+            </tbody>
+        </table>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
